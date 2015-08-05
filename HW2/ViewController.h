@@ -9,7 +9,21 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *Website;
 
+@property (weak, nonatomic) IBOutlet UITextField *Username;
+
+@property (weak, nonatomic) IBOutlet UITextField *Password;
+
+@property (weak, nonatomic) IBOutlet UITextField *Counter;
+@property NSMutableArray *identifiant;
+@property int currentVal;
+
+
+- (IBAction)incrementCounter:(id)sender;
+- (IBAction)backwards:(id)sender;
+- (IBAction)forwards:(id)sender;
+- (IBAction)AddEntry:(id)sender;
 
 @end
 
