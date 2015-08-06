@@ -14,6 +14,7 @@
 		9391F1C01AA7A79400A896DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9391F1BF1AA7A79400A896DD /* Images.xcassets */; };
 		9391F1C31AA7A79400A896DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9391F1C11AA7A79400A896DD /* LaunchScreen.xib */; };
 		9391F1CF1AA7A79400A896DD /* HW2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9391F1CE1AA7A79400A896DD /* HW2Tests.m */; };
+		9391F1D91AA7A9E600A896DD /* SiteValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9391F1D81AA7A9E600A896DD /* SiteValue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		9391F1C81AA7A79400A896DD /* HW2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HW2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9391F1CD1AA7A79400A896DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9391F1CE1AA7A79400A896DD /* HW2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HW2Tests.m; sourceTree = "<group>"; };
+		9391F1D81AA7A9E600A896DD /* SiteValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiteValue.m; sourceTree = "<group>"; };
+		9391F1DA1AA7A9FA00A896DD /* SiteValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SiteValue.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				9391F1BF1AA7A79400A896DD /* Images.xcassets */,
 				9391F1C11AA7A79400A896DD /* LaunchScreen.xib */,
 				9391F1B21AA7A79400A896DD /* Supporting Files */,
+				9391F1D81AA7A9E600A896DD /* SiteValue.m */,
+				9391F1DA1AA7A9FA00A896DD /* SiteValue.h */,
 			);
 			path = HW2;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9391F1D91AA7A9E600A896DD /* SiteValue.m in Sources */,
 				9391F1BB1AA7A79400A896DD /* ViewController.m in Sources */,
 				9391F1B81AA7A79400A896DD /* AppDelegate.m in Sources */,
 				9391F1B51AA7A79400A896DD /* main.m in Sources */,
@@ -414,6 +420,7 @@
 				9391F1D41AA7A79400A896DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9391F1D51AA7A79400A896DD /* Build configuration list for PBXNativeTarget "HW2Tests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				9391F1D71AA7A79400A896DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
